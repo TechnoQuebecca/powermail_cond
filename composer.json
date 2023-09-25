@@ -25,11 +25,11 @@
 	],
 	"homepage": "https://github.com/einpraegsam/powermail_cond",
 	"require": {
-		"php": "^7.4 || ~8.0",
+		"php": "^7.4 || ^8.0",
 		"ext-json": "*",
 		"ext-pdo": "*",
-		"in2code/powermail": "^10.0",
-		"typo3/cms-core": "^11.5.15 || ^11.5 <11.5.14"
+		"in2code/powermail": "@dev",
+		"typo3/cms-core": "^11.5.15 || ^12"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^3.3",
