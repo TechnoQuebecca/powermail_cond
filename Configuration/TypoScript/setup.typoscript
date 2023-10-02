@@ -3,7 +3,6 @@ page {
     powermailCond = EXT:powermail_cond/Resources/Public/JavaScript/PowermailCondition.min.js
     powermailCond.defer = 1
   }
-
   3132 = COA
   3132 {
     wrap = <script id="powermail_conditions_container"|></script>
@@ -36,7 +35,6 @@ powermailCondition {
       replace = 1
     }
   }
-
   10 = USER
   10 {
     userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run

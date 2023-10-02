@@ -8,7 +8,6 @@ return [
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
-        'cruser_id' => 'cruser_id',
         'languageField' => 'sys_language_uid',
         'transOrigPointerField' => 'l18n_parent',
         'transOrigDiffSourceField' => 'l18n_diffsource',
@@ -54,8 +53,8 @@ return [
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        '',
-                        0,
+                        'label' => '',
+                        'value' => 0,
                     ],
                 ],
                 'foreign_table' => 'tx_powermailcond_domain_model_conditioncontainer',
@@ -126,8 +125,8 @@ return [
                 'renderType' => 'selectSingle',
                 'items' => [
                     [
-                        'LLL:EXT:powermail_cond/Resources/Private/Language/locallang_db.xlf:tx_powermailcond_conditioncontainer.form.pleaseChoose',
-                        '',
+                        'label' => 'LLL:EXT:powermail_cond/Resources/Private/Language/locallang_db.xlf:tx_powermailcond_conditioncontainer.form.pleaseChoose',
+                        'value' => '',
                     ],
                 ],
                 'itemsProcFunc' => 'In2code\PowermailCond\UserFunc\GetPowermailFormsWithoutConditionRelation->filterForms',
